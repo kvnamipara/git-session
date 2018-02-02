@@ -1,0 +1,41 @@
+.chat-body{
+  background-color:#B5CC18;
+}
+.centered{
+  text-align: center;
+}
+.white-text{
+  color: white;
+}
+.full{
+  width: 100%;
+}
+.ui.bottom{
+  position: fixed;
+  bottom: 0;
+  margin: 0px;
+  border:0px;
+}
+
+#endbtn {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 600px){
+  .txt{
+    display: none;
+  }
+  #sendbtn,#endbtn{
+    padding: 18px!important;
+  }
+  .ui.grid{
+    margin: 0px;
+  }
+  .outer{
+    padding-top: 0px!important;
+  }
+  .fourteen,.one{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+}
